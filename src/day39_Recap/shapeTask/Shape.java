@@ -10,24 +10,26 @@ public class Shape {
     }
 
     public void setName(String name) {
-        if (name==null){
+        if (name == null) {
             System.out.println("name can not be null");
             System.exit(1);//1:something went wrong
         }
-        if (name.isEmpty()|| name.isBlank()){
+        if (name.isEmpty() || name.isBlank()) {
             System.err.println("invalid name");
-     System.exit(1);
+            System.exit(1);
         }
         this.name = name;
     }
 
     public Shape(String name) {
-       setName(name);
+        setName(name);
     }
-    public double area(){
+
+    public double area() {
         return 0;
     }
-    public double perimeter(){
+
+    public double perimeter() {
         return 0;
     }
 
@@ -35,6 +37,9 @@ public class Shape {
     public String toString() {
         return "Shape{" +
                 "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
                 '}';
+
     }
 }
