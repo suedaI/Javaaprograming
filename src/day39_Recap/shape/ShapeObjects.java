@@ -6,5 +6,6 @@ public class ShapeObjects {
         System.out.println(square);
         Rectangle rectangle=new Rectangle(33,4);
         System.out.println(rectangle);
+        Circle circle=new Circle(21);
     }
 }
