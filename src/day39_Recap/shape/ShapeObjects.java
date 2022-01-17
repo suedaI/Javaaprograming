@@ -9,5 +9,6 @@ public class ShapeObjects {
         Circle circle=new Circle(21);
         Square square1=new Square(11);
         System.out.println(square1);
+        //add more if you want
     }
 }
