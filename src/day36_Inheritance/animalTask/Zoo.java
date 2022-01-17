@@ -20,6 +20,7 @@ public class Zoo {
         cat.moving();
         // cat.bark();
         //  cat.hunt();
+        //cat only do limitted
         cat.scratch();
         System.out.println(cat);
 
