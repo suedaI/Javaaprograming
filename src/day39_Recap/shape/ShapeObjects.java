@@ -7,5 +7,7 @@ public class ShapeObjects {
         Rectangle rectangle=new Rectangle(33,4);
         System.out.println(rectangle);
         Circle circle=new Circle(21);
+        Square square1=new Square(11);
+        System.out.println(square1);
     }
 }
